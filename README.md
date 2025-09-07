@@ -40,7 +40,7 @@ When done, stop the containers by pressing Ctrl+C in the terminal running Docker
 docker-compose down
 ```
 
-**Project Structure**  
+## Project Structure
 - **app/** - FastAPI application code
 - **tests/** - Unit tests
 - **Dockerfile** - Instructions to build the app container
@@ -48,7 +48,7 @@ docker-compose down
 - **requirements.txt** — Python dependencies
 - **README.md** — This documentation
 
-**Notes**  
+## Notes  
 - Database connection details are managed in the docker-compose.yml and app config.
 - The app uses asynchronous SQLAlchemy for efficient database operations.
 - Unit tests can be run locally inside the container or your dev environment.
